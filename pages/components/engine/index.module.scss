@@ -1,0 +1,62 @@
+.engine {
+  height: 50px;
+  background-color: lightcoral;
+  width: 200px;
+  border-radius: 60px 0px 0px 2px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  top: 0px;
+  position: relative;
+}
+.wheelBaseLeft,
+.wheelBaseRight {
+  position: absolute;
+  bottom: -21px;
+  display: flex;
+  gap: 2px;
+}
+.wheelBaseLeft {
+  left: 10px;
+}
+.wheelBaseRight {
+  right: 10px;
+}
+.designLine {
+  z-index: 1;
+  height: 2px;
+  width: 98%;
+  background-color: red;
+  position: absolute;
+  margin-top: 15%;
+  right: 0px;
+}
+.second {
+  margin-top: 18%;
+  width: 99%;
+}
+.engineBody {
+  background-color: rgb(223, 184, 184);
+  float: right;
+  width: 80%;
+  top: 0px;
+  margin-left: 20%;
+  height: 60%;
+  display: flex;
+  gap: 10px;
+  padding: 1px 10px;
+}
+.powerAntenna{
+  width : 2px;
+  height: 40px;
+  background-color: brown;
+  position: absolute;
+  bottom: 95%;
+  left: 50%;
+  transform: rotate(30deg);
+}
+.line{
+  width: 20px;
+  background-color: rgb(179, 110, 110);
+  height: 95%;
+}

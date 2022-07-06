@@ -1,0 +1,36 @@
+.bogie {
+  height: 50px;
+  background-color: rgb(119, 186, 209);
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  top: 0px;
+  position: relative;
+}
+.wheelBaseLeft,
+.wheelBaseRight {
+  position: absolute;
+  bottom: -21px;
+  display: flex;
+  gap: 2px;
+}
+.wheelBaseLeft {
+  left: 10px;
+}
+.wheelBaseRight {
+  right: 10px;
+}
+.designLine {
+  z-index: 1;
+  height: 2px;
+  width: 100%;
+  background-color: blue;
+  position: absolute;
+  margin-top: 15%;
+  right: 0px;
+}
+.second {
+  margin-top: 18%;
+}
