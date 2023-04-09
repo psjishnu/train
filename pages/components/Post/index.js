@@ -4,8 +4,8 @@ import { post, second } from "./index.module.scss";
 function Post() {
   return (
     <>
-      <div className={post}></div>
-      <div className={`${post} ${second}`}></div>
+      <div className={post} />
+      <div className={`${post} ${second}`} />
     </>
   );
 }

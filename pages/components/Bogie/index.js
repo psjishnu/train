@@ -19,8 +19,8 @@ const Bogie = () => (
     <Window />
     <Window />
     <Door />
-    <div className={designLine}></div>
-    <div className={`${designLine} ${second}`}></div>{" "}
+    <div className={designLine} />
+    <div className={`${designLine} ${second}`} />{" "}
     <div className={wheelBaseLeft}>
       <Wheel />
       <Wheel />

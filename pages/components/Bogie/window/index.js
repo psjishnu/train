@@ -9,7 +9,7 @@ function Window() {
         width: "15%",
         borderRadius: 3,
       }}
-    ></div>
+    />
   );
 }
 

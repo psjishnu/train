@@ -9,7 +9,7 @@ const Door = () => (
       borderRadius: 3,
       zIndex: 5,
     }}
-  ></div>
+  />
 );
 
 export default Door;

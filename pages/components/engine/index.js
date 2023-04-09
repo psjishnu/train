@@ -15,16 +15,16 @@ import Door from "../door";
 function Engine() {
   return (
     <div className={engine}>
-      <div className={powerAntenna}></div>
-      <div className={designLine}></div>
-      <div className={`${designLine} ${second}`}></div>
+      <div className={powerAntenna} />
+      <div className={designLine} />
+      <div className={`${designLine} ${second}`} />
       <Door />
       <div className={engineBody}>
-        <div className={line}></div>
-        <div className={line}></div>
-        <div className={line}></div>
-        <div className={line}></div>
-        <div className={line}></div>
+        <div className={line} />
+        <div className={line} />
+        <div className={line} />
+        <div className={line} />
+        <div className={line} />
       </div>
       <div className={wheelBaseLeft}>
         <Wheel />
